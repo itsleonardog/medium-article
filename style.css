@@ -1,0 +1,87 @@
+/* body style */
+body {
+  color: #252A34;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Gloock', serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Gloock', serif;
+  font-weight: bold;
+}
+
+h2 {
+  color: #252A34;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+/* custom design */
+.banner {
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+  color: white;
+  text-shadow: #494949;
+  padding: 120px 0;
+}
+
+.banner h1 {
+  font-size: 40px;
+}
+
+.banner p {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, #8BF5FA, #8BF5FA);
+  color: white;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, #3F979B, #3F979B);
+}
+
+/* media queries */
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
